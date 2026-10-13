@@ -1,0 +1,142 @@
+@media (max-width:75em) {
+    .container {
+        margin: 0;
+    }
+}
+
+@media (max-width:68.75em) {
+    html {
+        font-size: 50%;
+    }
+
+    .container {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+@media (max-width:56.25em) {
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .side-nav {
+        display: flex;
+        margin: 0;
+
+    }
+
+    .legal {
+        display: none;
+    }
+
+    .side-nav__item {
+        flex: 1;
+    }
+
+    .side-nav__item:not(:last-child) {
+        margin: 0;
+    }
+
+    .side-nav__link:link,
+    .side-nav__link:visited {
+        justify-content: center;
+        padding: 2rem;
+    }
+
+    .detail {
+        padding: 3rem;
+    }
+
+    .description {
+        padding: 2rem;
+        margin-right: 3rem;
+    }
+
+    .review {
+        padding: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .cta {
+        padding: 2.5rem 0;
+    }
+}
+
+@media (max-width:37.5em) {
+    .detail {
+        flex-direction: column;
+    }
+
+    .description {
+        margin-right: 0;
+        margin-bottom: 3rem;
+    }
+
+    .side-nav__link:link,
+    .side-nav__link:visited {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .side-nav__icon {
+        margin: 0;
+        margin-bottom: .7rem;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .overview__heading {
+        font-size: 1.8rem;
+        padding: 1.25rem 2rem ;
+    }
+
+    .overview__rating {
+        padding: 0 1.25rem;
+    }
+
+    .overview__rating-average {
+        font-size: 1.8rem;
+    }
+
+    .overview__rating-count {
+        font-size: .7rem; 
+    }
+}
+
+
+@media (max-width:31.25em) {
+    .search {
+        order: 1;
+        flex: 0 0 100%;
+    }
+
+    .header {
+        flex-wrap: wrap;
+        align-content: space-around;
+        height: 11rem;
+    }
+
+    .cta__book-now {
+        font-size: 1.6rem;
+    }
+}
+
+
+@media (max-width:25em) {
+
+    .side-nav__link:link,
+    .side-nav__link:visited {
+        padding: 1rem;
+    }
+
+    .overview__heading {
+        font-size: 1.5rem;
+        padding: 1.25rem 1.8rem;
+    }
+
+    .cta__book-now {
+        font-size: 1.4rem;
+    }
+}
